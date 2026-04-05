@@ -10,7 +10,7 @@ const inputLitros = document.getElementById("litros");
 const resultado = document.getElementById("resultado");
 
 // função para validar os dados
-const validar = (tipo, litros) => {
+const validarDados = (tipo, litros) => {
     if (!tipo) {
         alert("Selecione um combustível");
         return false;
